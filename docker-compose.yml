@@ -8,9 +8,9 @@ services:
     environment:
       - ROOT_URL=${ROOT_URL}
       - MONGO_URL=mongodb://mongodb/titra
-      - PORT=3000
+      - PORT=3002
     ports:
-      - "3000:3000"
+      - "3002:3002"
     restart: always
   mongodb:
     image: mongo:4.2
